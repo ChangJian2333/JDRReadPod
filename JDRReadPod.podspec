@@ -8,7 +8,7 @@ DESC
 
 spec.homepage         = "https://github.com/ChangJian2333/JDRReadPod"   #Pod的地址
 
-spec.license          = { :type => "BSD", :file => "LICENSE" }          #License
+spec.license          = { :type => "MIT", :file => "LICENSE" }          #License
 spec.author           = { "changjian" => "changjian2333@163.com" }   #作者
 spec.social_media_url = "https://github.com/ChangJian2333"           #github
 spec.platform         = :ios, "8.0"                                     #平台、版本
