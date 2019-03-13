@@ -1,16 +1,16 @@
 Pod::Spec.new do |spec|
 spec.name             = "JDRReadPod"                         #Pod的名字
 spec.version          = "1.0.0"                                     #版本号
-spec.summary          = "A adblock pod for JDRRead"
+spec.summary          = "A pod for JDRRead"
 spec.description      = <<-DESC                                     #Pod的描述
-- A adblock pod for JDRRead
+- JDRRead free
 DESC
 
 spec.homepage         = "https://github.com/ChangJian2333/JDRReadPod"   #Pod的地址
 
 spec.license          = { :type => "BSD", :file => "LICENSE" }          #License
 spec.author           = { "changjian" => "changjian2333@163.com" }   #作者
-spec.social_media_url = ""                   #weibo
+spec.social_media_url = "https://github.com/ChangJian2333"           #github
 spec.platform         = :ios, "8.0"                                     #平台、版本
 spec.source           = { :git => "https://github.com/ChangJian2333/JDRReadPod.git", :tag => spec.version.to_s }  #代码的git地址以及tag
   spec.source_files     = "JDRReadPod/**/*.{h,m}"        #本地验证，表示当前目录以及子目录的所有h或m结尾的文件   如果发布到MonkeyPodSpecs需要填写git clone下来的对应的路径
