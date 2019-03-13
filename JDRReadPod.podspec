@@ -3,7 +3,7 @@ spec.name             = "JDRReadPod"                         #Pod的名字
 spec.version          = "1.0.0"                                     #版本号
 spec.summary          = "A pod for JDRRead"
 spec.description      = <<-DESC                                     #Pod的描述
-- JDRRead free
+- JDRRead free test  test test
 DESC
 
 spec.homepage         = "https://github.com/ChangJian2333/JDRReadPod"   #Pod的地址
