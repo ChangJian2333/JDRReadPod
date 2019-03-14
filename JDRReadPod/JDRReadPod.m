@@ -12,13 +12,23 @@
 #import <CaptainHook/CaptainHook.h>
 #import <UIKit/UIKit.h>
 
-CHDeclareClass(CustomViewController)
+@interface ReaderBookCatalogCell
+- (void)setTextDisabled:(_Bool)arg1;
+@end
 
-CHOptimizedMethod(0, self, NSString*, CustomViewController,getMyName){
-    return @"MonkeyDevPod";
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wstrict-prototypes"
+#pragma GCC diagnostic ignored "-Wundeclared-selector"
+
+// MARK: - Hook ReaderBookCatalogCell
+CHDeclareClass(ReaderBookCatalogCell)
+
+CHOptimizedMethod1(self, void, ReaderBookCatalogCell,setTextDisabled,_Bool,arg1){
+    CHSuper1(ReaderBookCatalogCell, setTextDisabled, 0);
 }
 
 CHConstructor{
-    CHLoadLateClass(CustomViewController);
-    CHClassHook(0, CustomViewController, getMyName);
+    CHLoadLateClass(ReaderBookCatalogCell);
+    CHClassHook1(ReaderBookCatalogCell, setTextDisabled);
 }

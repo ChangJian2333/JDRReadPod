@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		19014BAF2238A9F90085E867 /* JDRReadPod.m in Sources */ = {isa = PBXBuildFile; fileRef = 19014BAE2238A9F90085E867 /* JDRReadPod.m */; };
-		19014BB12238A9F90085E867 /* JDRReadPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 19014BB02238A9F90085E867 /* JDRReadPod.podspec */; };
 		19014BB82238A9F90085E867 /* JDRReadPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19014BAA2238A9F90085E867 /* JDRReadPod.framework */; };
 		19014BBD2238A9F90085E867 /* JDRReadPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19014BBC2238A9F90085E867 /* JDRReadPodTests.m */; };
 		19014BBF2238A9F90085E867 /* JDRReadPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 19014BAD2238A9F90085E867 /* JDRReadPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19014C36223A39F80085E867 /* JDRReadPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 19014C35223A39F80085E867 /* JDRReadPod.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,11 +28,11 @@
 		19014BAA2238A9F90085E867 /* JDRReadPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JDRReadPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19014BAD2238A9F90085E867 /* JDRReadPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDRReadPod.h; sourceTree = "<group>"; };
 		19014BAE2238A9F90085E867 /* JDRReadPod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDRReadPod.m; sourceTree = "<group>"; };
-		19014BB02238A9F90085E867 /* JDRReadPod.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = JDRReadPod.podspec; sourceTree = "<group>"; };
 		19014BB22238A9F90085E867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19014BB72238A9F90085E867 /* JDRReadPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDRReadPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19014BBC2238A9F90085E867 /* JDRReadPodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDRReadPodTests.m; sourceTree = "<group>"; };
 		19014BBE2238A9F90085E867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19014C35223A39F80085E867 /* JDRReadPod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JDRReadPod.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +75,9 @@
 		19014BAC2238A9F90085E867 /* JDRReadPod */ = {
 			isa = PBXGroup;
 			children = (
+				19014C35223A39F80085E867 /* JDRReadPod.podspec */,
 				19014BAD2238A9F90085E867 /* JDRReadPod.h */,
 				19014BAE2238A9F90085E867 /* JDRReadPod.m */,
-				19014BB02238A9F90085E867 /* JDRReadPod.podspec */,
 				19014BB22238A9F90085E867 /* Info.plist */,
 			);
 			path = JDRReadPod;
@@ -182,7 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19014BB12238A9F90085E867 /* JDRReadPod.podspec in Resources */,
+				19014C36223A39F80085E867 /* JDRReadPod.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
